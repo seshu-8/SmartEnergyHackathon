@@ -68,7 +68,7 @@ Small industries
 Educational institutions
 
 ## 📊 Dashboard Preview
-![Dashboard Preview](images/dashboard.jpeg)
+![Dashboard Preview](images/dashboard.png)
 
 ---
 
