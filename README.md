@@ -242,3 +242,19 @@ AI-based anomaly detection
 Mobile application integration
 Relay-based auto cut-off feature
 
+---
+
+## 🧩 System Architecture
+![System Architecture](images/architecture.png)
+
+---
+
+## 🔌 Circuit Connections
+![Circuit Connections](images/connections.png)
+
+---
+
+## 📊 Dashboard Preview
+![Dashboard Preview](images/dashboard.jpeg)
+
+---
