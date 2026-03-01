@@ -1,48 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Smart Energy AI Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edge Energy Guardian</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+  <h1>Edge Energy Guardian ⚡</h1>
 
-    <header>
-        <h1>Smart Energy Monitoring System</h1>
-        <p>AI Powered Real-Time Energy Intelligence</p>
-    </header>
+  <button id="voiceBtn">🎙 Enable Voice</button>
+  <p id="voiceStatus">Voice: Off</p>
+  <input id="cmd" placeholder="Type: status/current/power" />
+<button id="askBtn">Ask</button>
 
-    <section class="dashboard">
+  <hr>
 
-        <div class="card">
-            <h2>Sensor Data</h2>
-            <p>Voltage: <span id="voltage">0</span> V</p>
-            <p>Current: <span id="current">0</span> A</p>
-            <p>Power: <span id="power">0</span> W</p>
-        </div>
+  <p>Voltage: <b id="voltageVal">--</b> V</p>
+  <p>Current: <b id="currentVal">--</b> A</p>
+  <p>Power: <b id="powerVal">--</b> W</p>
+  <p>Status: <b id="statusVal">--</b></p>
+  <hr>
 
-        <div class="card">
-            <h2>Health Score</h2>
-            <h3 id="healthScore">100%</h3>
-        </div>
+<p>Anomaly Type: <b id="anomalyVal">--</b></p>
+<p>Health Score: <b id="healthVal">--</b> / 100</p>
+<p>Recommendation: <b id="recommendVal">--</b></p>
 
-        <div class="card">
-            <h2>Anomaly Detection</h2>
-            <p id="anomalyStatus">Normal</p>
-        </div>
-
-        <div class="card">
-            <h2>Smart Recommendation</h2>
-            <p id="recommendation">System operating efficiently</p>
-        </div>
-
-        <div class="card">
-            <h2>Voice Control</h2>
-            <button onclick="startVoice()">Activate Voice Command</button>
-        </div>
-
-    </section>
-
-    <script src="script.js"></script>
+  <!-- IMPORTANT: script.js must load -->
+  <script src="script.js"></script>
+ </div>
 </body>
 </html>
